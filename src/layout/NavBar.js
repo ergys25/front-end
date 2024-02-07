@@ -1,15 +1,16 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function NavBar() {
     return (
         <div class="navbar bg-base-100">
   <div class="navbar-start">
 
-    <a class="btn btn-ghost text-xl">Spring Boot CRUD</a>
+    <Link class="btn btn-ghost text-xl text-white" to={"/"}>Spring Boot CRUD</Link>
   </div>
 
   <div class="navbar-end">
-    <a class="btn">Add User</a>
+    <Link class="btn btn-ghost text-xl text-white" to={"/adduser"}>Add User</Link>
 
 
   </div>

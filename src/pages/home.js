@@ -41,9 +41,9 @@ export default function Home() {
                                     <td>{user.email}</td>
                                     <td>{user.username}</td>
                                     <td>
-                                            <button className="btn btn-sm btn-info" style={{ margin: '5px' }}>View</button>
-                                            <button className="btn btn-sm btn-primary" style={{ margin: '5px' }}>Edit</button>
-                                            <button className="btn btn-sm btn-danger" style={{ margin: '5px' }}>Delete</button>
+                                            <button className="bg-transparent hover:bg-pink-500  font-semibold hover:text-white py-2 px-4 border border-grey-500 hover:border-transparent rounded" style={{ margin: '5px' }}>View</button>
+                                            <button className="bg-transparent hover:bg-pink-500  font-semibold hover:text-white py-2 px-4 border border-grey-500 hover:border-transparent rounded" style={{ margin: '5px' }}>Edit</button>
+                                            <button className="bg-transparent hover:bg-pink-500  font-semibold hover:text-white py-2 px-4 border border-grey-500 hover:border-transparent rounded" style={{ margin: '5px' }}>Delete</button>
                                         </td>
                                 </tr>
                             ))}

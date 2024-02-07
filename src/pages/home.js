@@ -29,6 +29,7 @@ export default function Home() {
                                 <th>Name</th>
                                 <th>email</th>
                                 <th>username</th>
+                                <th>Actions</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -39,6 +40,11 @@ export default function Home() {
                                     <td>{user.name}</td>
                                     <td>{user.email}</td>
                                     <td>{user.username}</td>
+                                    <td>
+                                            <button className="btn btn-sm btn-info" style={{ margin: '5px' }}>View</button>
+                                            <button className="btn btn-sm btn-primary" style={{ margin: '5px' }}>Edit</button>
+                                            <button className="btn btn-sm btn-danger" style={{ margin: '5px' }}>Delete</button>
+                                        </td>
                                 </tr>
                             ))}
                         </tbody>

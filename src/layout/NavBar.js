@@ -10,8 +10,7 @@ export default function NavBar() {
 
   <div class="navbar-end">
     <a class="btn">Add User</a>
-    <a class="btn">Edit User</a>
-    <a class="btn">Delete User</a>
+
 
   </div>
 </div>
